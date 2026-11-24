@@ -1,20 +1,53 @@
 body {
   background: gray;
-  font-family: sans-serif;
+  font-family: sans-serif;  
 }
 
 .card {
   width: 400px;
   background: white;
   margin: 16px auto;
+  /* font-size: 16px; 这里无效是因为h1默认大小比继承
+  要高*/
+
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+
 }
 
 button {
   background: white;
+  display: block;/*1,别忘了，这是外部影
+  响，所以加在这，而不是button-container下*/
+  margin: 0 auto;/*加了block，只能
+  用margin-auto居中*/
+  padding: 5px 10px;
+}
+
+/*下边是加的选择器*/
+
+.card{
+  padding: 5px;/*父盒子加这个才不会
+  盒子折叠*/
+}
+
+.title{
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 16px;/*加了这个，h1就不会比继承大了*/
+}
+
+.content{
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.button-container{
+  text-align: center;/*可以让inline类型居中
+  当然包括文字*/
+  padding: 5px;
 }
