@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* 下边为添加代码*/
+.title {
+  text-align: center;/*可以在body里写*/
+  margin: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+  gap: 52px;
+}
+
+.info {
+  display: flex;/*默认是block可以不写*/
+  flex-direction: column;/*默认是block可以不写*/
+  align-items: center;/*text-align: center;包括图片居中*/
+  flex-wrap: wrap;width: 200px;/*直接用max-width替代这两个*/
+  
+  text-align: center;/*可以放到body里写*/
+  gap: 8px; 
+}
+
