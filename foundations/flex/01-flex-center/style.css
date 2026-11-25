@@ -16,5 +16,5 @@
   height: 80px;
   margin: auto;/*也可以实现，单个
   子item这样更方便，多个整体还是justify,align
-  这样就不用每个item都写margin*/
+  ,不然就不是这个效果了*/
 }
