@@ -3,7 +3,8 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
-  display: flex;
+  display: flex;/*这个是开启两个方向，所以
+  margin会两个方向的居中*/
 }
 
 .box {
@@ -13,5 +14,7 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-  margin: auto;/*好像也可以实现*/
+  margin: auto;/*也可以实现，单个
+  子item这样更方便，多个整体还是justify,align
+  这样就不用每个item都写margin*/
 }
