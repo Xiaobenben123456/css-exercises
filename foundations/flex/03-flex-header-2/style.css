@@ -46,3 +46,30 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*添加的代码*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.start {
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+}
+
+.end {
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+}
