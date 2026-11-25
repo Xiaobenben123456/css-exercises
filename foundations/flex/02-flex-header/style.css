@@ -23,3 +23,22 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/*下面是加的代码*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: auto;/*这个作用于子items,不该写在父元素上*/
+}
+
+ul {/*注意ul自带margin,padding，所以重置为0*/
+  display: flex;
+  gap: 16px;
+  margin: 0px 8px;
+  padding: 0px;
+}
+
+.logo {
+  margin: 8px;
+}
