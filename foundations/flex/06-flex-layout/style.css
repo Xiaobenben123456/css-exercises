@@ -59,7 +59,8 @@ ul, a {
   
 }
 
-.content {
+.content {/*solution在这里加来flex:1;这句可以理
+  解为，谁加了谁才有资格分配到蛋糕*/
   align-self: center;
   /* align-content: center;这段没有起效，下
   边align-items:center已经起作用 */
